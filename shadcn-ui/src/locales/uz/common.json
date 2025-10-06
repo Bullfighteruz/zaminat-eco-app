@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "team": "Jamoa",
+    "contacts": "Kontaktlar",
+    "ecomap": "EkoXarita",
+    "ecovote": "EkoOvoz"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xato",
+    "success": "Muvaffaqiyat",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "confirm": "Tasdiqlash",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "previous": "Oldingi"
+  }
+}

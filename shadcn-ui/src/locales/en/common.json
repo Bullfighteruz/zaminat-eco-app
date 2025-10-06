@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "contacts": "Contacts",
+    "ecomap": "EcoMap",
+    "ecovote": "EcoVote"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
