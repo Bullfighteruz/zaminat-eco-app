@@ -2,45 +2,59 @@
 
 An ecological awareness application for Uzbekistan that combines gamification with environmental education.
 
-## Features
+[![Open in Bolt](https://bolt.new/button)](https://bolt.new/Bullfighteruz/zaminat-eco-app)
 
-- Multi-language support (Uzbek, Russian, English)
-- Eco-friendly actions tracking
-- Gamification system with rewards
-- Environmental education content
-- Social mission shop
-- Community engagement tools
+## Project Overview
 
-## Technology Stack
+A React-based web application for promoting environmental awareness and eco-friendly actions in Uzbekistan.
 
-- React + Vite
-- TypeScript
-- Tailwind CSS
-- Shadcn/ui components
-- i18next for translations
+## Stack
 
-## Getting Started
+- **Framework:** React 18 with Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + Shadcn/ui
+- **Internationalization:** i18next (UZ/RU/EN)
 
-1. Clone the repository:
+## Development Setup
+
 ```bash
-git clone https://github.com/Bullfighteruz/zaminat-eco-app.git
-```
-
-2. Install dependencies:
-```bash
-cd zaminat-eco-app
+# Install dependencies
 npm install
-```
 
-3. Run the development server:
-```bash
+# Start development server
 npm run dev
 ```
 
-## Contributing
+## Project Structure
 
-We welcome contributions to the Zaminat Eco App project. Please feel free to submit issues and pull requests.
+```
+src/
+├── components/     # UI components
+├── hooks/         # Custom React hooks
+├── lib/           # Utilities and data
+├── locales/       # Translations
+├── pages/         # Page components
+└── styles/        # CSS styles
+```
+
+## Environment Variables
+
+```env
+VITE_APP_API_URL=your_api_url_here
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+## Quick Links
+
+- [Documentation](docs/)
+- [Component Library](src/components/)
+- [Translations](src/locales/)
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
