@@ -8,22 +8,54 @@ An ecological awareness application for Uzbekistan that combines gamification wi
 
 A React-based web application for promoting environmental awareness and eco-friendly actions in Uzbekistan.
 
-## Stack
+## Technology Stack
 
 - **Framework:** React 18 with Vite
 - **Language:** TypeScript
-- **Styling:** Tailwind CSS + Shadcn/ui
+- **UI Components:** shadcn/ui (pre-downloaded in `@/components/ui`)
+- **Styling:** Tailwind CSS
 - **Internationalization:** i18next (UZ/RU/EN)
 
 ## Development Setup
 
 ```bash
 # Install dependencies
-npm install
+pnpm i
+
+# Add new dependency
+pnpm add [package-name]
 
 # Start development server
-npm run dev
+pnpm run dev
+
+# Build for production
+pnpm run build
 ```
+
+## Key Files and Directories
+
+```
+├── index.html          # HTML entry point
+├── vite.config.ts      # Vite configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── package.json        # Dependencies and scripts
+└── src/
+    ├── app.tsx         # Root component
+    ├── main.tsx        # Project entry point
+    ├── index.css       # Global styles
+    ├── components/
+    │   └── ui/         # shadcn/ui components
+    └── pages/
+        └── Index.tsx   # Home page
+```
+
+## Development Guidelines
+
+- All shadcn/ui components are available at `@/components/ui`
+- Use Tailwind classes for styling components
+- Add global styles to `src/index.css`
+- The `@/` path alias points to the `src/` directory
+- Avoid re-exporting types that are already imported
 
 ## Project Structure
 
